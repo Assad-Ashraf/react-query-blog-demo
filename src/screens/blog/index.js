@@ -7,6 +7,7 @@ import { PostStyles } from '../../components/styled'
 export default function Home() {
   const postsQuery = usePosts()
 
+  console.log(postsQuery)
   return (
     <div>
       <h1>Blog</h1>
